@@ -1,0 +1,53 @@
+/* Navbar */
+.navbar-brand {
+    font-weight: bold;
+    color: #FFD700 !important;
+  }
+  
+  .nav-link {
+    color: #333 !important;
+  }
+  
+  .nav-link.btn {
+    background-color: #FFD700;
+  }
+  
+  /* Hero Section */
+  .hero-section {
+    background-color: #FFD700;
+    color: #fff;
+    height: 100vh;
+  }
+  
+  .hero-section .btn-primary {
+    background-color: #fff;
+    color: #FFD700;
+    border: none;
+  }
+  
+  /* Services Section */
+  .services-section .card {
+    border: none;
+  }
+  
+  /* About Section */
+  .about-section h2 {
+    margin-bottom: 20px;
+  }
+  
+  /* Testimonials Section */
+  .testimonials-section .card {
+    border: none;
+  }
+  
+  /* Contact Section */
+  .contact-section h2 {
+    margin-bottom: 20px;
+  }
+  
+  /* Footer */
+  .footer-section {
+    background-color: #fff;
+    color: #333;
+  }
+  

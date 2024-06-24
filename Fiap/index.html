@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Bird Fintech</title>
+  <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+  <link href="style.css" rel="stylesheet">
+</head>
+<body>
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-lg navbar-light bg-white fixed-top">
+    <div class="container">
+      <a class="navbar-brand" href="#">Bird</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="#home">Início</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#services">Serviços</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#about">Sobre Nós</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#testimonials">Depoimentos</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#contact">Contato</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link btn btn-primary text-white ml-2" href="#">Entrar</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Hero Section -->
+  <section id="home" class="hero-section d-flex align-items-center">
+    <div class="container text-center">
+      <h1 class="display-4">Bem-vindo à Bird</h1>
+      <p class="lead">Sua plataforma de fintech inovadora</p>
+      <a href="#" class="btn btn-lg btn-primary">Saiba Mais</a>
+    </div>
+  </section>
+
+  <!-- Services Section -->
+  <section id="services" class="services-section py-5">
+    <div class="container">
+      <div class="row text-center">
+        <div class="col-md-4">
+          <div class="card mb-4 shadow-sm">
+            <div class="card-body">
+              <h5 class="card-title">Pagamentos Rápidos</h5>
+              <p class="card-text">Transações rápidas e seguras para todos os seus pagamentos.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card mb-4 shadow-sm">
+            <div class="card-body">
+              <h5 class="card-title">Investimentos Inteligentes</h5>
+              <p class="card-text">A melhor forma de investir o seu dinheiro com alta rentabilidade.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card mb-4 shadow-sm">
+            <div class="card-body">
+              <h5 class="card-title">Suporte 24/7</h5>
+              <p class="card-text">Estamos aqui para ajudar você a qualquer hora, em qualquer lugar.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- About Us Section -->
+  <section id="about" class="about-section py-5 bg-light">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-6">
+          <h2>Sobre Nós</h2>
+          <p>Somos uma fintech comprometida em fornecer soluções financeiras inovadoras para nossos clientes. Nossa missão é simplificar suas finanças e ajudá-lo a atingir seus objetivos financeiros com facilidade e segurança.</p>
+        </div>
+        <div class="col-md-6">
+          <img src="./imagens/Saldo.png" class="img-fluid" alt="Sobre Nós">
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Testimonials Section -->
+  <section id="testimonials" class="testimonials-section py-5">
+    <div class="container">
+      <div class="text-center mb-5">
+        <h2>O que nossos clientes dizem</h2>
+      </div>
+      <div class="row">
+        <div class="col-md-4">
+          <div class="card mb-4 shadow-sm">
+            <div class="card-body">
+              <p class="card-text">"A Bird facilitou minha vida financeira. Recomendo a todos!"</p>
+              <p class="text-muted">- João Silva</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card mb-4 shadow-sm">
+            <div class="card-body">
+              <p class="card-text">"Excelente plataforma de investimentos. Estou muito satisfeito."</p>
+              <p class="text-muted">- Maria Oliveira</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card mb-4 shadow-sm">
+            <div class="card-body">
+              <p class="card-text">"Suporte ao cliente excepcional. Resolvem qualquer problema rapidamente."</p>
+              <p class="text-muted">- Carlos Pereira</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contact" class="contact-section py-5 bg-light">
+    <div class="container">
+      <div class="text-center mb-5">
+        <h2>Contato</h2>
+      </div>
+      <div class="row">
+        <div class="col-md-6">
+          <form>
+            <div class="form-group">
+              <label for="name">Nome</label>
+              <input type="text" class="form-control" id="name" placeholder="Seu nome">
+            </div>
+            <div class="form-group">
+              <label for="email">Email</label>
+              <input type="email" class="form-control" id="email" placeholder="Seu email">
+            </div>
+            <div class="form-group">
+              <label for="message">Mensagem</label>
+              <textarea class="form-control" id="message" rows="5" placeholder="Sua mensagem"></textarea>
+            </div>
+            <button type="submit" class="btn btn-primary nav-link.btn">Enviar</button>
+          </form>
+        </div>
+        <div class="col-md-6">
+          <h5>Endereço</h5>
+          <p>Rua Exemplo, 123<br>Cidade, Estado, CEP</p>
+          <h5>Email</h5>
+          <p>contato@birdfintech.com</p>
+          <h5>Telefone</h5>
+          <p>(11) 1234-5678</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer-section bg-white py-3">
+    <div class="container text-center">
+      <p class="mb-0">© 2024 Bird Fintech. Todos os direitos reservados.</p>
+    </div>
+  </footer>
+
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
